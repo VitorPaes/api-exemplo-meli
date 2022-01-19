@@ -3,11 +3,11 @@
 
 API consistem em 3 endpoints
 * /all
-  * Consiste em trazer via metodo GET todos os resultados existente no banco de dados da tabela items
+  * Consiste em trazer via metodo GET todos os resultados existentes no banco de dados da tabela items
 * /find/{id}
   * Consiste em trazer via metodo GET as informações de um unico produto da tabela items
 * /save
-  * Adiciona uma nova linha a tabela de items pelo metodo POST abaixo exemplo de como se deve enviar o Json
+  * Adiciona uma nova linha a tabela de items pelo metodo POST. Abaixo exemplo de como se deve enviar o Json
   ~~~json
   {
     "title": "Exemplo",
