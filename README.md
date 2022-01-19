@@ -41,14 +41,12 @@ pip install -r requirements.txt
 ~~~shell
 docker-compose up
 ~~~
-![image](https://user-images.githubusercontent.com/34031758/150211511-5ab4f198-06c7-4336-a687-afc202e904ec.png)
 * Execute o arquivo insert_data.py (exibira uma msg no terminal com a qtd de linha existente na tabela)
 ~~~shell
-python3 insert_data.py
+python insert_data.py
 ~~~
 * Execute o arquivo app.py (entrara em execução o servidor no ip (http://127.0.0.1:5000/)
 ~~~shell
-python3 app.py
+flask run
 ~~~
-#### Passo 3
-* Rota /all
+
